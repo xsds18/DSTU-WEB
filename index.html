@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Знакомство с HTML</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="main-title">WEB study</h1>
+      <h2 class="main-epigraph">Epigraph</h2>
+      <p id="ssylka">
+        Кратко о себе несколько строчек. Описание должно содержать использование
+        нескольких шрифтов, несколько слов выделить цветом. Страничка должна
+        содержать все перечисленные теги с разными параметрами.
+      </p>
+      <p class="date">13.09.2024</p>
+      <img class="podpis" src="images/подпись.jpg" alt="" />
+    </div>
+
+    <div>
+      <h2>Обычная таблица</h2>
+      <table style="border: solid black;" border="1">
+        <tr>
+          <th>Имя</th>
+          <th>Возраст</th>
+          <th>Город</th>
+        </tr>
+        <tr>
+          <td>Алексей</td>
+          <td>25</td>
+          <td>Москва</td>
+        </tr>
+        <tr>
+          <td>Ольга</td>
+          <td>30</td>
+          <td>Санкт-Петербург</td>
+        </tr>
+        <tr>
+          <td>Иван</td>
+          <td>22</td>
+          <td>Новосибирск</td>
+        </tr>
+      </table>
+
+      <h2>Таблица с объединенными ячейками</h2>
+      <table border="1">
+        <tr>
+          <th rowspan="2">Имя</th>
+          <th colspan="2">Информация</th>
+        </tr>
+        <tr>
+          <th>Возраст</th>
+          <th>Город</th>
+        </tr>
+        <tr>
+          <td>Алексей</td>
+          <td>25</td>
+          <td>Москва</td>
+        </tr>
+        <tr>
+          <td>Ольга</td>
+          <td>30</td>
+          <td>Санкт-Петербург</td>
+        </tr>
+        <tr>
+          <td>Иван</td>
+          <td>22</td>
+          <td>Новосибирск</td>
+        </tr>
+      </table>
+    </div>
+    <img id="first" src="images/logo 1.jpg" alt="">
+    <img id="second" src="images/logo 1.jpg" alt="">
+    <img id="third" src="images/logo 1.jpg" alt="">
+    
+    <p>Link <a href="https://www.google.com" target="_blank">Google</a></p>
+    <p>Link <a href="#ssylka">О нас</a></p>
+    <p>Link <a href="index copy.html">Second page</a></p>
+
+
+    <a id="button1" href="index copy.html">Зарегестрироваться</a>
+    <a id="button2" href="index copy.html">Войти</a>
+    <a id="button3" href="index copy.html">Оплатить</a>
+
+    <table class="main-table">
+      <tr class="main-th">
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Город</th>
+        <th>Телефон</th>
+      </tr>
+      <tr>
+        <td>Алексей</td>
+        <td>25</td>
+        <td>Москва</td>
+        <td>89514455060</td>
+      </tr>
+      <tr>
+        <td>Ольга</td>
+        <td>30</td>
+        <td>Санкт-Петербург</td>
+        <td>89515377677</td>
+      </tr>
+      <tr>
+        <td>Иван</td>
+        <td>22</td>
+        <td>Новосибирск</td>
+        <td>89515370060</td>
+      </tr>
+      <tr>
+        <td>Денис</td>
+        <td>28</td>
+        <td>Крым</td>
+        <td>89516670059</td>
+      </tr>
+      <tr>
+        <td>Илья</td>
+        <td>32</td>
+        <td>Чалтырь</td>
+        <td>89488370060</td>
+      </tr>
+      <tr>
+        <td>Александр</td>
+        <td>25</td>
+        <td>Москва</td>
+        <td>89517870060</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <div class="cards">
+      <div class="card">     
+        <div class="big-pict">
+          <a class="card-image" href="">
+            <img src="images/smart_crop_516x290.jpg" alt="">
+          </a>
+        </div>
+        <div class="small">
+          <div class="small-pict">
+            <a href="info.html">
+              <img src="images/xxh.png" alt="">
+            </a>
+          </div>
+          <div class="small-pict-all">
+            <div class="small-pict--text">
+              <a class="small-pict--text-s" href="info.html">
+                <span>ICHIP.RU</span>
+                <img src="images/vote_grey.svg" height="10px" alt="">
+              </a>
+            </div>
+            <div class="bottom-text">
+                <span>29k reading</span><span>  · 2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <a class="card-bottom-up-s" href="">
+            <div class="card-bottom-up">
+              4 главные фишки нового iPhone 16 Pro, ради которых его стоит купить
+            </div>
+          </a>
+          <div class="card-bottom-down">
+            Собрали все причины, по которым новые iPhone 16 — главные претенденты на звание лучших флагманов 2024 года Вот и прошла одна из самых значимых презентаций в мире высоких технологий — Apple It’s Glowtime — на которой компания из Купертино представила целую россыпь новых устройств, включая часы, наушники и смартфоны. Последние вызвали наибольший интерес, поскольку в этом поколении iPhone действительно стали лучше во всём. В этой статье собрали топ главных фишек нового iPhone 16 Pro. В рамках презентации...
+          </div>
+        </div>
+      </div>
+
+      <div class="card">     
+        <div class="big-pict">
+          <a class="card-image" href="">
+            <img src="images/smart_crop_516x290.jpg" alt="">
+          </a>
+        </div>
+        <div class="small">
+          <div class="small-pict">
+            <a href="">
+              <img src="images/xxh.png" alt="">
+            </a>
+          </div>
+          <div class="small-pict-all">
+            <div class="small-pict--text">
+              <a class="small-pict--text-s" href="http://">
+                <span>ICHIP.RU</span>
+                <img src="images/vote_grey.svg" height="10px" alt="">
+              </a>
+            </div>
+            <div class="bottom-text">
+                <span>29k reading</span><span>  · 2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <a class="card-bottom-up-s" href="">
+            <div class="card-bottom-up">
+              4 главные фишки нового iPhone 16 Pro, ради которых его стоит купить
+            </div>
+          </a>
+          <div class="card-bottom-down">
+            Собрали все причины, по которым новые iPhone 16 — главные претенденты на звание лучших флагманов 2024 года Вот и прошла одна из самых значимых презентаций в мире высоких технологий — Apple It’s Glowtime — на которой компания из Купертино представила целую россыпь новых устройств, включая часы, наушники и смартфоны. Последние вызвали наибольший интерес, поскольку в этом поколении iPhone действительно стали лучше во всём. В этой статье собрали топ главных фишек нового iPhone 16 Pro. В рамках презентации...
+          </div>
+        </div>
+      </div>
+
+      <div class="card">     
+        <div class="big-pict">
+          <a class="card-image" href="">
+            <img src="images/smart_crop_516x290.jpg" alt="">
+          </a>
+        </div>
+        <div class="small">
+          <div class="small-pict">
+            <a href="">
+              <img src="images/xxh.png" alt="">
+            </a>
+          </div>
+          <div class="small-pict-all">
+            <div class="small-pict--text">
+              <a class="small-pict--text-s" href="http://">
+                <span>ICHIP.RU</span>
+                <img src="images/vote_grey.svg" height="10px" alt="">
+              </a>
+            </div>
+            <div class="bottom-text">
+                <span>29k reading</span><span>  · 2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card-bottom">
+          <a class="card-bottom-up-s" href="">
+            <div class="card-bottom-up">
+              4 главные фишки нового iPhone 16 Pro, ради которых его стоит купить
+            </div>
+          </a>
+          <div class="card-bottom-down">
+            Собрали все причины, по которым новые iPhone 16 — главные претенденты на звание лучших флагманов 2024 года Вот и прошла одна из самых значимых презентаций в мире высоких технологий — Apple It’s Glowtime — на которой компания из Купертино представила целую россыпь новых устройств, включая часы, наушники и смартфоны. Последние вызвали наибольший интерес, поскольку в этом поколении iPhone действительно стали лучше во всём. В этой статье собрали топ главных фишек нового iPhone 16 Pro. В рамках презентации...
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+  </body>
+</html>

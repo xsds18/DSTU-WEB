@@ -1,0 +1,159 @@
+#menu {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh; 
+    background-color: #333; 
+    padding: 20px; 
+  }
+  
+  #menu a {
+    display: block; 
+    padding: 10px; 
+    color: #fff; 
+    text-decoration: none; 
+    border-bottom: 1px solid #444; 
+  }
+  
+  #menu a:hover {
+    background-color: #444; 
+    color: #fff; 
+    border-bottom: 1px solid #666; 
+    padding-left: 20px; 
+  }
+  
+  #content {
+    margin-left: 220px;
+    padding: 20px; 
+  }
+
+.info-page {
+    display: block;
+    position: relative;
+    max-width: 50%;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.info-up {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.bottom-text {
+    font-size: 8pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.small-pict--text-s {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.small-pict-all {
+    padding: 8px 8px;
+    margin-right: auto;
+}
+
+.small-pict > a > img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.button-up {
+    display: block;
+}
+
+.button-main {
+    height: 40px;
+    border-radius: 12px;
+    border-color: bisque;
+    padding: 6px 16px 6.5px;
+    background-color: black;
+    color: white;
+    font-weight: 590;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.text-info {
+    display: block;
+}
+
+.image-up {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.info > h1 {
+    font-size: 26pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-info {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: normal;
+    font-size: 16pt;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-up > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#registration-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #registration-form header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #registration-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #registration-form input[type="text"], #registration-form input[type="email"], #registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  #registration-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #registration-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
